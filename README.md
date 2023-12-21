@@ -8,9 +8,7 @@ Before you begin, make sure you have the following tools and prerequisites insta
 
 - [JDK (Java Development Kit)](https://www.oracle.com/java/technologies/javase-downloads.html) - Oracle JDK 8 is recommended.
 - [Maven](https://maven.apache.org/download.cgi) - Build and project management tool.
-- [Docker](https://docs.docker.com/get-docker/) - Containerization platform for building, shipping, and running applications.
 - [SonarQube](https://www.sonarqube.org/) - Continuous Inspection tool for static code analysis.
-- [Checkstyle](https://checkstyle.sourceforge.io/) - Development tool to help programmers write Java code that adheres to a coding standard.
 - [AWS CLI](https://aws.amazon.com/cli/) - AWS Command Line Interface for interacting with AWS services.
 - [Jenkins](https://www.jenkins.io/download/) - Automation server used for building, testing, and deploying.
 
@@ -20,12 +18,6 @@ Before you begin, make sure you have the following tools and prerequisites insta
 - **src:** Source code of the Java application.
 - **target:** Output directory for compiled code, test results, and generated reports.
 
-## Getting Started
-
-1. **Clone the Repository:**
-   ```bash
-   git clone <repository_url>
-   cd <project_directory>
 ## Configuration
 
 ### Jenkins
@@ -85,6 +77,3 @@ Before you begin, make sure you have the following tools and prerequisites insta
 7. **Deploy to AWS ECS:**
    - Deploy the application on AWS ECS.
 
-## Contributing
-
-If you'd like to contribute to the project, please follow the [contribution guidelines](CONTRIBUTING.md).
