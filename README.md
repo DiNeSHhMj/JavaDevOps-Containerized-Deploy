@@ -21,7 +21,6 @@ The project is organized with the following structure:
 - **userdata:** This directory contains scripts for setting up Jenkins, Nexus, and SonarQube. These scripts are designed to streamline the deployment and configuration process. The individual scripts include:
 
   - `setup-jenkins.sh`: Script for setting up Jenkins.
-  - `setup-nexus.sh`: Script for setting up Nexus.
   - `setup-sonar.sh`: Script for setting up SonarQube.
 
 - **Vagrant:** This directory includes a `Vagrantfile` for provisioning a virtual machine (VM) on the host system. Additionally, scripts are provided to install various tools within the VM. The files in this directory are:
