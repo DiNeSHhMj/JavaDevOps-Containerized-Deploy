@@ -12,11 +12,23 @@ Before you begin, make sure you have the following tools and prerequisites insta
 - [AWS CLI](https://aws.amazon.com/cli/) - AWS Command Line Interface for interacting with AWS services.
 - [Jenkins](https://www.jenkins.io/download/) - Automation server used for building, testing, and deploying.
 
-## Project Structure
+# Project Structure
 
-- **Docker-files:** Contains Docker configurations for building and packaging the application.
-- **src:** Source code of the Java application.
-- **target:** Output directory for compiled code, test results, and generated reports.
+The project is organized with the following structure:
+
+- **src:** Contains the source code for the Java application.
+
+- **userdata:** This directory contains scripts for setting up Jenkins, Nexus, and SonarQube. These scripts are designed to streamline the deployment and configuration process. The individual scripts include:
+
+  - `setup-jenkins.sh`: Script for setting up Jenkins.
+  - `setup-nexus.sh`: Script for setting up Nexus.
+  - `setup-sonar.sh`: Script for setting up SonarQube.
+
+- **Vagrant:** This directory includes a `Vagrantfile` for provisioning a virtual machine (VM) on the host system. Additionally, scripts are provided to install various tools within the VM. The files in this directory are:
+
+  - `Vagrantfile`: Configuration file for creating and configuring the VM.
+  - `install-tools.sh`: Script for installing different tools within the VM.
+
 
 ## Configuration
 
