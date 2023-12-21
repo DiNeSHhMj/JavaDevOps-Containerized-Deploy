@@ -1,6 +1,8 @@
 # JavaDevOps-Containerized-Deploy
 
-This project is a Java application with integrated DevOps practices for continuous integration and deployment.
+## What the Project Is About
+
+**JavaDevOps-Containerized-Deploy** is a comprehensive Java application project that embodies DevOps practices, emphasizing continuous integration and deployment. The project integrates various tools and technologies to streamline the development lifecycle, enhance code quality, and automate deployment processes.
 
 ## Tools and Prerequisites
 
